@@ -25,7 +25,8 @@ app.get("/", function (req, res) {
         //send view using res.render,will look up in views folder
     res.render("pages/index", {
         drinks: drinks,
-        tagline: tagline
+        tagline: tagline,
+        write: true
     });
 });
 

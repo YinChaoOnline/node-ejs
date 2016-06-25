@@ -18,13 +18,20 @@
                 <p>
                     <%= tagline %>
                 </p>
+                <h2>if</h2>
+                <p>
+                    <% if(write){ %>
+                        <%= tagline %>
+                    <% } %>
+                </p>
                 <h2>Loop</h2>
                 <ul>
                     <% drinks.forEach(function(drink) { %>
                         <li>
-                            <%= drink.name %> - <%= drink.drunkness %>
+                            <%= drink.name %> -
+                                <%= drink.drunkness %>
                         </li>
-                    <% }); %>
+                        <% }); %>
                 </ul>
             </div>
         </div>
