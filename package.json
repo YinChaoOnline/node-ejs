@@ -1,0 +1,15 @@
+{
+  "name": "node-ejs",
+  "version": "1.0.0",
+  "description": "\u0016Using EJS to template a Node application.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "ejs"
+  ],
+  "author": "YinChaoOnline",
+  "license": "MIT"
+}
